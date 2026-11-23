@@ -8,7 +8,7 @@ public record SectionResponse(
         UUID academicYearId,
         String academicYearName,
         UUID gradeId,
-        Integer gradeNumber,
+        Short gradeNumber,
         String gradeName,
         String sectionCode,
         boolean active,

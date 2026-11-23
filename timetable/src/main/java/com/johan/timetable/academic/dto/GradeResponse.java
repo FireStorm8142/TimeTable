@@ -4,6 +4,6 @@ import java.util.UUID;
 
 public record GradeResponse(
         UUID id,
-        Integer gradeNumber,
+        Short gradeNumber,
         String name
 ) {}

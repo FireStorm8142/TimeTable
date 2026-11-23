@@ -12,7 +12,7 @@ public class Grade {
     private UUID id;
 
     @Column(name = "grade_number", nullable = false, unique = true)
-    private Integer gradeNumber;
+    private Short gradeNumber;
 
     @Column(nullable = false, length = 30)
     private String name;
@@ -23,7 +23,7 @@ public class Grade {
         return id;
     }
 
-    public Integer getGradeNumber() {
+    public Short getGradeNumber() {
         return gradeNumber;
     }
 
