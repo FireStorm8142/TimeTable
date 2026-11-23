@@ -1,0 +1,4 @@
+package com.johan.timetable.subject;
+
+public class SubjectService {
+}
