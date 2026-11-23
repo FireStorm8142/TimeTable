@@ -1,4 +1,9 @@
 package com.johan.timetable.academic.dto;
 
-public class GradeResponse {
-}
+import java.util.UUID;
+
+public record GradeResponse(
+        UUID id,
+        Integer gradeNumber,
+        String name
+) {}
